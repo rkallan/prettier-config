@@ -1,5 +1,5 @@
 {
-    "name": "@rkallan/prettier-config",
+    "name": "rkallan-prettier-config",
     "version": "1.0.0",
     "description": "Shareable Prettier config by R. Kallan",
     "keywords": [
