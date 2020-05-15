@@ -19,8 +19,7 @@ $ npm install rkallan-prettier-config --save-dev
 }
 ```
 
-If you don't want to use package.json, you can use any of the supported extensions to export a string,
-e.g. .prettierrc.json:
+If you don't want to use package.json, you can use any of the supported extensions to export a string.
 
 **Usage in `.prettierrc.json`**:
 
@@ -30,7 +29,7 @@ e.g. .prettierrc.json:
 
 If you need to overwrite some properties or want to use JS, import the file in a .prettierrc.js file and export the modifications.
 
-**Usage in `.prettierrc.js`**:
+**Usage in `.prettierrc.js` or `prettier.config.js`**:
 
 ```js
 module.exports = {
