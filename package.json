@@ -8,7 +8,7 @@
     ],
     "author": "Ravi Kallan <r.kallan@upcmail.nl>",
     "license": "MIT",
-    "main": "./src/index.json",
+    "main": "index.json",
     "repository": {
         "type": "git",
         "url": "git@github.com:rkallan/prettier-config.git"
@@ -17,12 +17,6 @@
         "url": "https://github.com/rkallan/prettier-config/issues/new",
         "email": "r.kallan@upcmail.nl"
     },
-    "files": [
-        "src"
-    ],
-    "folders": [
-        "src"
-    ],
     "devDependencies": {
         "semantic-release": "^17.0.7"
     },
