@@ -1,0 +1,34 @@
+{
+    "name": "@rkallan/prettier-config",
+    "version": "1.0.0",
+    "description": "Shareable Prettier config by R. Kallan",
+    "keywords": [
+        "Prettier",
+        "Prettier config"
+    ],
+    "author": "Ravi Kallan <r.kallan@upcmail.nl>",
+    "license": "MIT",
+    "main": "scr/index.json",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:rkallan/prettier-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rkallan/prettier-config/issues/new/choose",
+        "email": "r.kallan@upcmail.nl"
+    },
+    "files": [
+        "src"
+    ],
+    "devDependencies": {
+        "semantic-release": "^17.0.7"
+    },
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/github",
+        "@semantic-release/npm",
+        "@semantic-release/git"
+    ]
+}
