@@ -8,7 +8,7 @@
     ],
     "author": "Ravi Kallan <r.kallan@upcmail.nl>",
     "license": "MIT",
-    "main": "scr/index.json",
+    "main": "src/index.json",
     "repository": {
         "type": "git",
         "url": "git@github.com:rkallan/prettier-config.git"
