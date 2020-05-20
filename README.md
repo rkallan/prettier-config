@@ -7,7 +7,7 @@
 **Install**:
 
 ```bash
-$ npm install rkallan-prettier-config --save-dev
+npm install rkallan-prettier-config
 ```
 
 **Usage in `package.json`**:
@@ -23,7 +23,7 @@ If you don't want to use package.json, you can use any of the supported extensio
 
 **Usage in `.prettierrc.json`**:
 
-```
+```json
 "rkallan-prettier-config"
 ```
 
