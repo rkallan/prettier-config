@@ -6,19 +6,28 @@
         "Prettier",
         "Prettier config"
     ],
-    "author": "Ravi Kallan <r.kallan@upcmail.nl>",
-    "license": "MIT",
-    "main": "index.json",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:rkallan/prettier-config.git"
-    },
     "bugs": {
         "url": "https://github.com/rkallan/prettier-config/issues/new",
         "email": "r.kallan@upcmail.nl"
     },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:rkallan/prettier-config.git"
+    },
+    "license": "MIT",
+    "author": "Ravi Kallan <r.kallan@upcmail.nl>",
+    "main": "index.json",
+    "scripts": {
+        "sort-packagejson": " npx sort-package-json"
+    },
+    "dependencies": {
+        "@prettier/plugin-xml": "~0.7.2"
+    },
     "devDependencies": {
-        "semantic-release": "^17.0.7"
+        "semantic-release": "~17.0.8"
+    },
+    "peerDependencies": {
+        "prettier": ">=2.0.5"
     },
     "plugins": [
         "@semantic-release/commit-analyzer",
