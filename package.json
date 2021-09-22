@@ -17,14 +17,23 @@
     "license": "MIT",
     "author": "Ravi Kallan <r.kallan@upcmail.nl>",
     "main": "index.json",
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "scripts": {
+        "commit": "git-cz"
+    },
     "dependencies": {
-        "@prettier/plugin-xml": "~0.7.2"
+        "@prettier/plugin-xml": "~1.0.2"
     },
     "devDependencies": {
-        "semantic-release": "~17.0.8"
+        "cz-conventional-changelog": "^3.3.0",
+        "semantic-release": "~18.0.0"
     },
     "peerDependencies": {
-        "prettier": ">=2.0.5"
+        "prettier": ">=2.4.1"
     },
     "plugins": [
         "@semantic-release/commit-analyzer",
